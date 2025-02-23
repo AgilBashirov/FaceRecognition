@@ -5,7 +5,7 @@ This is a face recognition API built using Python and Flask.
 ## Installation
 
 1. Clone the repository:
-   git clone https://github.com/yourusername/yourrepository.git
+   git clone https://github.com/AgilBashirov/FaceRecognition.git
 
 2. Navigate to the project directory:
    cd yourrepository
