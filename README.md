@@ -31,7 +31,7 @@ The API will be available at http://127.0.0.1:5000.
 
 ## API Endpoints
 
-- **POST /verify_faces**
+- **POST /verify**
    - Accepts base64-encoded images in the request body and returns a similarity score.
    - Example request body:
      ```json
