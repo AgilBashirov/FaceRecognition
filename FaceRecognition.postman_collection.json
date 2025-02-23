@@ -1,0 +1,44 @@
+{
+	"info": {
+		"_postman_id": "517202b0-44bc-449f-831b-aca321e66020",
+		"name": "FaceRecognition",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "15971211"
+	},
+	"item": [
+		{
+			"name": "http://127.0.0.1:5000/verify",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"image1\": \"base64_string_1\",\r\n  \"image2\": \"base64_string_2\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:5000/verify",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"verify"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
